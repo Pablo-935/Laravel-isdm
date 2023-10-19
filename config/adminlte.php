@@ -107,7 +107,7 @@ return [
     */
 
     'preloader' => [
-        'enabled' => false,
+        'enabled' => true,
         'img' => [
             'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
             'alt' => 'AdminLTE Preloader Image',
@@ -299,7 +299,7 @@ return [
 
         [
             'text' => 'Lista de Productos',
-            'url' => '#',
+            'route' => 'producto.index',
             'icon' => 'fas fa-store', // icono de fontawesome
             'can' => 'lista_productos' // permiso del vendedor
         ],
